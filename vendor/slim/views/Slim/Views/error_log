@@ -1,0 +1,5 @@
+[04-Aug-2017 14:37:49 UTC] PHP Fatal error:  Class 'Slim\View' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/slim/views/Slim/Views/Twig.php on line 46
+[04-Aug-2017 15:09:08 UTC] PHP Fatal error:  Class 'Slim\View' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/slim/views/Slim/Views/Smarty.php on line 50
+[04-Aug-2017 19:18:09 UTC] PHP Fatal error:  Class 'Twig_Extension' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/slim/views/Slim/Views/TwigExtension.php on line 38
+[04-Aug-2017 22:33:41 UTC] PHP Fatal error:  Class 'Slim\View' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/slim/views/Slim/Views/Twig.php on line 46
+[05-Aug-2017 05:45:16 UTC] PHP Fatal error:  Class 'Twig_Extension' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/slim/views/Slim/Views/TwigExtension.php on line 38

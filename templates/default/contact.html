@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="page-name">
+        <div class="section-padding">
+            <div class="container">
+                <div class="name-section background-bg" data-image-src="images/bg.jpg">
+                    <div class="overlay">
+                        <div class="padding">
+                            <h2 class="page-title">Get in touch</h2><!-- /.page-ttile -->
+                            <ol class="breadcrumb">
+                                <li><a href="#">Home</a></li>
+                                <li class="active">Contact</li>
+                            </ol>
+                        </div><!-- /.padding -->
+                    </div><!-- /.overlay -->
+                </div><!-- /.name-section -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.page-name -->
+    <section class="contact-details">
+        <div class="section-padding">
+            <div class="container">
+                <div class="items">
+                    <div class="col-sm-8">
+                        <div class="inner-bg">
+                            <h2 class="section-title">Contact us</h2><!-- /.section-title -->
+                            <div class="padding">
+
+                                <form action="http://demos.jeweltheme.com/cast/email.php" method="post" class="wpcf7-form contact-form">
+                                    <input type="text" id="name" name="name" value="" class="wpcf7-form-control" placeholder="Name (required)" required="">
+
+                                    <input type="email" id="email" name="email" value="" class="wpcf7-form-control" placeholder="Email (required)" required="">
+
+                                    <input type="text" id="suject" name="suject" value="" class="wpcf7-form-control" placeholder="Subject">
+
+                                    <textarea id="message" name="message" class="wpcf7-form-control" placeholder="Message (required)" required=""></textarea>
+
+                                    <input type="submit" id="submit" name="submit" class="wpcf7-form-control btn" value="Send Message">
+                                    <div class="contact-message"></div>
+                                    <div class="error-message"></div>
+                                </form>
+                                
+                            </div><!-- /.padding -->
+                        </div><!-- /.inner-bg -->
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="inner-bg">
+                            <h2 class="section-title">Contact info</h2><!-- /.section-title -->
+                            <div class="padding">
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-location-pin"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h3 class="item-title">Address</h3><!-- /.item-title -->
+                                        <span>
+                                            Yaounde, Cameroon
+                                        </span>
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-mobile"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h3 class="item-title">Phone</h3><!-- /.item-title -->
+                                        <span>
+                                            +237 3 8376 6284 (10 AM - 07 PM)
+                                        </span>
+                                        <span>
+                                            +237 3 8376 6284 (10 AM - 07 PM)
+                                        </span>
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-email"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h3 class="item-title">Email</h3><!-- /.item-title -->
+                                        <span>
+                                            <a href="#">support@ayimbiresources.com</a>
+                                            <a href="#">info@ayimbiresources.com</a>
+                                        </span>
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+                            </div><!-- /.padding -->
+                        </div><!-- /.inner-bg -->
+                    </div>
+                </div><!-- /.items -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.contact-details -->
+{% endblock %}

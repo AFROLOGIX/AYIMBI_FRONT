@@ -1,0 +1,5 @@
+[06-Aug-2017 01:38:49 UTC] PHP Fatal error:  Interface 'Twig_TokenParserInterface' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/twig/twig/lib/Twig/TokenParser.php on line 18
+[06-Aug-2017 04:15:51 UTC] PHP Fatal error:  Interface 'Twig_TemplateInterface' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/twig/twig/lib/Twig/Template.php on line 19
+[06-Aug-2017 06:39:59 UTC] PHP Fatal error:  Interface 'Twig_TokenParserBrokerInterface' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/twig/twig/lib/Twig/TokenParserBroker.php on line 20
+[06-Aug-2017 06:41:58 UTC] PHP Fatal error:  Interface 'Twig_NodeInterface' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/twig/twig/lib/Twig/Node.php on line 19
+[06-Aug-2017 07:12:04 UTC] PHP Fatal error:  Interface 'Twig_FilterInterface' not found in /home/afrolune6/ayimbi.afrologix.com/vendor/twig/twig/lib/Twig/Filter.php on line 20

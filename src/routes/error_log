@@ -1,0 +1,3 @@
+[29-Jul-2017 05:44:29 UTC] PHP Fatal error:  Call to a member function get() on null in /home/afrolune6/ayimbi.afrologix.com/src/routes/base.route.php on line 2
+[29-Jul-2017 05:44:33 UTC] PHP Fatal error:  Call to a member function get() on null in /home/afrolune6/ayimbi.afrologix.com/src/routes/post.route.php on line 2
+[29-Jul-2017 05:44:37 UTC] PHP Fatal error:  Call to a member function group() on null in /home/afrolune6/ayimbi.afrologix.com/src/routes/admin.route.php on line 2

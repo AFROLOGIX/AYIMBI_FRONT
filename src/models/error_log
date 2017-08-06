@@ -1,0 +1,4 @@
+[29-Jul-2017 05:44:43 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/afrolune6/ayimbi.afrologix.com/src/models/Users.models.php on line 3
+[29-Jul-2017 05:44:45 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/afrolune6/ayimbi.afrologix.com/src/models/Posts.models.php on line 3
+[29-Jul-2017 05:44:49 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/afrolune6/ayimbi.afrologix.com/src/models/Comments.models.php on line 2
+[29-Jul-2017 07:59:53 UTC] PHP Fatal error:  Class 'Illuminate\Database\Eloquent\Model' not found in /home/afrolune6/ayimbi.afrologix.com/src/models/Settings.models.php on line 3

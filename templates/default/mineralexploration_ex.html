@@ -1,0 +1,168 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="page-name">
+        <div class="section-padding">
+            <div class="container">
+                <div class="name-section background-bg" data-image-src="images/bg4.jpg">
+                    <div class="overlay">
+                        <div class="padding">
+                            <h2 class="page-title">All Services</h2><!-- /.page-ttile -->
+                            <ol class="breadcrumb">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li class="active">{{ include(template_from_string(lang.mineralexploration)) }}</li>
+                            </ol>
+                        </div><!-- /.padding -->
+                    </div><!-- /.overlay -->
+                </div><!-- /.name-section -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.page-name -->
+
+
+
+
+    <section class="services">
+        <div class="section-padding">
+            <div class="container">
+                <div class="items">
+                    <div class="col-sm-4">
+                        <ul class="service-nav">
+                            <li ><a href="#"><i class="ti-clipboard"></i>All Services</a></li>
+                            <li class="active"><a href="#"><i class="ti-light-bulb"></i>{{ include(template_from_string(lang.mineralexploration)) }}</a></li>
+                            <li><a href="interior.html"><i class="ti-brush-alt"></i>Interior Design</a></li>
+                            <li><a href="exterior.html"><i class="ti-paint-bucket"></i>Exterior Design</a></li>
+                            <li><a href="refubrish.html"><i class="ti-ruler-pencil"></i>Refurbishment</a></li>
+                        </ul><!-- /.nav-tabs -->
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div class="details-content">
+                            <div class="inner-bg">
+                                <div class="padding">
+                                    <div id="service-slider" class="service-slider carousel slide" data-ride="carousel">
+
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                                <img src="images/service/8.jpg" alt="Slider Image">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/service/9.jpg" alt="Slider Image">
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/service/10.jpg" alt="Slider Image">
+                                            </div>
+                                        </div><!-- /.carousel-inner -->
+
+                                        <a class="left carousel-control" href="#service-slider" role="button" data-slide="prev">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                        <a class="right carousel-control" href="#service-slider" role="button" data-slide="next">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div><!-- /#service-slider -->
+
+                                    <div class="item">
+                                        <h3 class="item-title">Qualified Experts</h3><!-- /.item-title -->
+                                        <p class="description">
+                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item -->
+
+                                    <div class="item">
+                                        <h3 class="item-title">Excellent Support</h3><!-- /.item-title -->
+                                        <p class="description">
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item -->
+
+                                    <div class="item">
+                                        <h3 class="item-title">24+ Years of Experience</h3><!-- /.item-title -->
+                                        <p class="description">
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item -->
+                                </div><!-- /.padding -->
+                            </div><!-- /.inner-bg -->
+
+                            <div class="section-padding"></div><!-- /.section-padding -->
+
+                            <div class="items">
+                                <div class="col-sm-6">
+                                    <div class="inner-bg">
+                                        <div class="padding">
+                                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingOne">
+                                                        <h4 class="panel-title">
+                                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                                Additional Information here 01
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                        <div class="panel-body">
+                                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                Additional Information here 02
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                        <div class="panel-body">
+                                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingThree">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                Additional Information here 03
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                        <div class="panel-body">
+                                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.padding -->
+                                    </div><!-- /.inner-bg -->    
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="inner-bg">
+                                        <img src="images/service/11.jpg" alt="Image">
+
+                                        <div class="padding">
+                                            <h3 class="item-title">Service Brochure</h3>
+                                            <p class="description">
+                                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            </p>
+                                            <a href="#" class="btn read-more">Download  Brochure <i class="ti-download"></i></a>
+                                        </div><!-- /.padding -->
+                                    </div><!-- /.inner-bg -->
+                                </div>
+                            </div><!-- /.items -->
+                        </div><!-- /.details-content -->
+                    </div>
+                </div><!-- /.items -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.services -->
+
+{% endblock %}

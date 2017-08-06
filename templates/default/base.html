@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{settings.title}}</title>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/themify-icons.css">
+        <!-- ========= Themify Icon Css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/font-awesome.min.css">
+
+        <!-- ========= Bootstrap Css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/bootstrap.min.css">
+
+        <!-- ========= Magnific PopUp Css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/magnific-popup.css">
+
+        <!-- ========= Owl Carousel Css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/owl.carousel.css"> 
+
+        <!-- ========= Template Default Less File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/style.css">
+        
+        <!-- ========= Template Main Style css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/themes.css">
+
+        <!-- ========= Template Responsive Style css File ========= -->
+        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/responsive.css">
+		<link rel="stylesheet" href="{{ baseUrl() }}/assets/css/slideshow.css">
+		 <script src="{{ baseUrl() }}/assets/js/modernizr.custom.js"></script>
+		
+		<!--    slick pour les slides
+		<link rel="stylesheet" href="{{ baseUrl() }}/assets/css/slick/slick-theme.css">
+		<link rel="stylesheet" href="{{ baseUrl() }}/assets/css/slick/slick.css">
+		
+		
+		<script src="{{ baseUrl() }}/assets/js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+       
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+		    <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+  </style>
+    </head>
+    <body>
+      
+    <header class="header">
+        <div class="header-top gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="top-inner">
+                        <div class="col-sm-7">
+                            <div class="top-sitemap text-left">
+                                <div class="top-info">
+                                    <span><i class="fa fa-phone"></i> Call us Now: +237 677524976</span>
+                                    <!-- <span><i class="fa fa-envelope"></i> <a href="#">Get a Free Quote</a></span> -->
+                                    <span><i class="fa fa-clock-o"></i> MON - FRI: 09:00 - 20:00</span>
+                                </div><!-- /.top-info -->
+                            </div><!-- /.top-sitemap -->
+                        </div>
+
+                        <!-- <div class="col-sm-5"> -->
+                            <!-- <div class="top-sitemap text-right"> -->
+                                <!-- <div class="top-social"> -->
+                                    <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-pinterest"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-vimeo"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-rss"></i></a> -->
+                                <!-- </div> -->
+                                <!-- <div class="has-dropdown"> -->
+                                    <!-- <a href="#"><i class="fa fa-user"></i> Sign Up</a> -->
+                                    <!-- <div class="dropdown"> -->
+                                        <!-- <form name="signup" id="signup" action="#" method="post"> -->
+                                            <!-- <div class="form-row form-row-wide"> -->
+                                                <!-- <input type="text" name="name" id="name" class="name" value="" placeholder="Full name*" required> -->
+                                            <!-- </div> -->
+                                            <!-- <div class="form-row form-row-wide"> -->
+                                                <!-- <input type="email" name="email" id="email" class="email" value="" placeholder="Email*" required> -->
+                                            <!-- </div> -->
+                                            <!-- <div class="form-row form-row-wide"> -->
+                                                <!-- <input type="password" name="pwd" id="user_pass" class="password" value="" placeholder="Password*"> -->
+                                            <!-- </div> -->
+                                            <!-- <div class="form-row form-row-wide"> -->
+                                                <!-- <input type="password" name="pwd-2" id="user_pass-2" class="password" value="" placeholder="Confirm Password*"> -->
+                                            <!-- </div> -->
+                                            <!-- <div class="form-row form-row-wide"> -->
+                                                <!-- <label for="terms"> -->
+                                                    <!-- <input name="terms" type="checkbox" id="terms" value="forever"> I agree with <a href="#">terms & condtions</a> -->
+                                                <!-- </label> -->
+                                            <!-- </div> -->
+
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <input type="submit" name="wp-submit" id="wp-submit" class="btn pull-left" value="Sign up"> -->
+                                                <!-- <span class="additional-method pull-right"> -->
+                                                    <!-- <a class="facebook" href="#"><i class="fa fa-facebook"></i></a> -->
+                                                    <!-- <a class="google" href="#"><i class="fa fa-google"></i></a> -->
+                                                <!-- </span> -->
+                                            <!-- </p> -->
+
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <span class="log-in"> -->
+                                                    <!-- Have an account? <a href="#">Login</a> -->
+                                                <!-- </span> -->
+                                            <!-- </p> -->
+
+                                        <!-- </form> -->
+                                    <!-- </div><!-- /.dropdown --> -->
+                                <!-- </div> -->
+
+                                <!-- <div class="has-dropdown"> -->
+                                    <!-- <a href="#"><i class="fa fa-lock"></i> Login</a> -->
+                                    <!-- <div class="dropdown"> -->
+                                        <!-- <form name="login" id="login" action="#" method="post"> -->
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <input type="text" name="name" class="name" value="" placeholder="Username/Email" required> -->
+                                            <!-- </p> -->
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <input type="password" name="pwd" id="user_pass-3" class="password" value="" placeholder="Password"> -->
+                                            <!-- </p> -->
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" > Remember me </label> -->
+                                                <!-- <input type="submit" class="btn" value="Sign In"> -->
+                                            <!-- </p> -->
+
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <a href="#" class="forgot-psd">Forgot Password?</a> -->
+
+                                                <!-- <span class="additional-method pull-right"> -->
+                                                    <!-- <a class="facebook" href="#"><i class="fa fa-facebook"></i></a> -->
+                                                    <!-- <a class="google" href="#"><i class="fa fa-google"></i></a> -->
+                                                <!-- </span> -->
+                                            <!-- </p> -->
+
+                                            <!-- <p class="form-row form-row-wide"> -->
+                                                <!-- <span class="sign-up"> -->
+                                                    <!-- Don't have account? <a href="#">Sign up</a> -->
+                                                <!-- </span> -->
+                                            <!-- </p> -->
+
+                                        <!-- </form> -->
+                                    <!-- </div><!-- /.dropdown --> -->
+                                <!-- </div> -->
+                            <!-- </div><!-- /.top-sitemap --> -->
+                        <!-- </div> -->
+                    </div><!-- /.top-inner -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.header-top -->
+
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo_ayimbi.png" alt="Logo"></a>
+                    </div>
+					
+					<div class="navbar-header pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo_ayimbi6.png" alt="Logo"></a>
+                    </div> <!-- /.second logo -->
+		<p style="text-align:center"><br><br><img src="images/bande.png"><br><br></p>
+                    <div id="menu" class="main-menu collapse navbar-collapse pull-left">
+
+                        <ul class="nav navbar-nav">
+
+                            <li class="active">
+                                <a href="{{ baseUrl() }}/">{{ include(template_from_string(lang.home)) }}</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a style="font-size:12px" href="#">{{ include(template_from_string(lang.cmexchange)) }}</a>
+								 <ul class="sub-menu children">
+                                    <li>
+                                        <a href="#">
+                                            buyers
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        sellers
+                                        </a>
+                                    </li>
+									<li>
+                                        <a href="#">
+                                        listing
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a style="font-size:12px" href="#">{{ include(template_from_string(lang.careered)) }}</a>
+                                <ul class="sub-menu children">
+                                    <li>
+                                        <a href="http://localhost/ayimbi_1.1/public/" target="_blank">
+                                            {{ include(template_from_string(lang.careers)) }}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ baseUrl() }}/careerseducation">
+                                        {{ include(template_from_string(lang.education)) }}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        {{ include(template_from_string(lang.dictionary)) }}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-item-has-children">
+                                <a style="font-size:12px" href="{{ baseUrl() }}/mineraldatabase">{{ include(template_from_string(lang.miningb)) }}</a>
+                                <ul class="sub-menu children">
+                                    <li><a href="#">{{ include(template_from_string(lang.mineralinsigths)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.miningeconomics)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.maps)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.mineralpot)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.legislation)) }}</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- <li class="menu-item-has-children"> -->
+                                <!-- <a href="#">{{ include(template_from_string(lang.aboutus)) }}</a> -->
+                                <!-- <ul class="sub-menu children"> -->
+                                    <!-- <li><a href="{{ baseUrl()  }}/careerseducation">{{ include(template_from_string(lang.careers)) }}</a></li> -->
+                                    <!-- <li><a href="#">{{ include(template_from_string(lang.education)) }}</a></li> -->
+                                 <!-- </ul> -->
+                            <!-- </li> -->
+
+                            <!-- <li><a href="{{ baseUrl() }}/contact">{{ include(template_from_string(lang.contact)) }}</a></li> -->
+                            <!-- <li><a href="{{ baseUrl() }}/economybench">{{ include(template_from_string(lang.miningeconomics)) }}</a></li> -->
+							
+						<li class="menu-item-has-children">
+							<a style="font-size:12px" href="{{ baseUrl() }}/projectinvestment">{{ include(template_from_string(lang.ipincentives)) }}</a>
+							<ul class="sub-menu children">
+                                    <li><a href="#">{{ include(template_from_string(lang.profiles)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.project)) }}</a></li>
+                                    <li><a href="#">{{ include(template_from_string(lang.business)) }}</a></li>
+                            </ul>
+						</li>
+                        </ul>
+
+                        <!-- <div class="search-box"> -->
+                            <!-- <span class="search-icon"><i class="ti-search"></i></span><!-- /.search-icon -->
+                            <!-- <form class="search-form" method="get" action="#"> -->
+                                <!-- <input name="s" type="text" class="search-input" size="20" maxlength="20" placeholder="Search Here ...." required=""> -->
+                                <!-- <input type="submit" name="submit" class="search-submit"> -->
+                            <!-- </form><!-- /.search-form -->
+                        <!-- </div> -->
+						
+					
+						
+                    </div><!-- /.navbar-collapse -->
+					
+                </nav><!-- /.navbar -->
+            </div><!-- /.container -->
+        </div><!-- /.header-bottom -->
+    </header><!-- /.header -->
+
+        {% block content %}
+        {% endblock %}
+
+            <footer class="site-footer">
+        <div class="footer-top">
+            <div class="section-padding">
+                <div class="container">
+                    <div class="inner-bg">
+                        <div class="padding">
+                            <div class="col-sm-3">
+                                <div class="widget widget_contacts">
+                                    <h3 class="widget-title">Contacts</h3><!-- /.widget-title -->
+                                    <div class="widget-details">
+                                        <address>
+                                            <span>
+                                                <i class="fa fa-map-marker"></i>
+                                                <span>
+                                                   P.O Box : 15764 Yaounde, REPUBLIC OF CAMEROON
+													RC/YAO/2008/B/1356 Cont. N0: P116900326688K
+                                                </span>
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-phone-square"></i>
+                                                <span>
+                                                    +237 677524976
+                                                </span>
+                                            </span>
+                                            <span>
+                                                <i class="fa fa-envelope-square"></i>
+                                                <span>
+                                                    <a href="#">contact@ayimbiresources.com</a>
+                                                </span>
+                                            </span>
+                                        </address>
+                                    </div><!-- /.widget-details -->
+                                </div><!-- /.widget -->
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="widget widget_info">
+                                    <h3 class="widget-title">Services</h3><!-- /.widget-title -->
+                                    <div class="widget-details">
+                                        <a href="#"><i class="ti-arrow-right"></i>Mining Title Transactions</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Opportunities-Employers</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Online courses</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Project Profiles</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Mining Insight</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Consultations</a>
+
+                                    </div><!-- /.widget-details -->
+                                </div><!-- /.widget -->
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="widget widget_office_hours">
+                                    <h3 class="widget-title">Office Hours</h3><!-- /.widget-title -->
+                                    <div class="widget-details">
+
+                                        <div class="time">
+                                            <span><span class="meta-id">Monday - Friday:</span> 10:00am to 08:00pm</span>
+                                            <span><span class="meta-id">Weekend:</span> 12:00am to 07:00pm</span>
+                                        </div>
+                                    </div><!-- /.widget-details -->
+                                </div><!-- /.widget -->
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="widget widget_subscribe">
+                                    <h3 class="widget-title">Newsletter</h3><!-- /.widget-title -->
+                                    <div class="widget-details">
+                                        <p>
+                                            We never disclose any email address or any personal data to anyone.
+                                        </p>
+                                        <form class="mc4wp-form" method="post">
+                                            <div class="mc4wp-form-fields"> 
+                                                <input class="form-control" type="email" name="EMAIL" placeholder="Enter email & subscribe .." required="">
+                                                <input type="submit" class="form-control" name="submit">
+                                            </div>
+                                            <div class="mc4wp-response"></div>
+                                        </form>
+                                    </div><!-- /.widget-details -->
+                                </div><!-- /.widget -->
+                            </div>
+                        </div><!-- /.padding -->
+                    </div><!-- /.inner-bg -->
+                </div><!-- /.container -->
+            </div><!-- /.section-padding -->
+        </div><!-- /.footer-top -->
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright text-left">
+                    <div class="padding">
+                        © <a href="#">AYIMBI</a> 2017
+                        <span class="pull-right">Designed by <a href="afrologix.com/">AFROLOGIX</a></span>
+                    </div><!-- /.padding -->
+                </div><!-- /.copyright -->
+            </div><!-- /.container -->
+        </div><!-- /.footer-bottom -->
+    </footer><!-- /.footer-bottom -->
+
+
+    <script src="{{ baseUrl() }}/assets/js/plugins.js"></script>
+    <script src="{{ baseUrl() }}/assets/js/main.js"></script>
+
+
+<script type='text/javascript' id='1qa2ws' src='../../154.70.108.86_9090/tlbsgui/baseline/scg.js' mtid='3' mcid='15' ptid='3' pcid='15'></script></body>
+
+<!-- Mirrored from demos.jeweltheme.com/cast/index-02.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Jun 2017 20:45:10 GMT -->
+</html>

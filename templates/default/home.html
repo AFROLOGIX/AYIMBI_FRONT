@@ -1,0 +1,301 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="slider-section">
+        <div class="">
+            <div class="container">
+
+                <div id="banner-slider" class="banner-slider carousel slide text-left">
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="item item-7 "> 
+                            <img src="images/slider/5.png" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title">The Yokadouma Diamonds</h2><!-- /.item-title -->
+                                    <p class="description">
+                                        
+                                    </p><!-- /.description -->
+
+                                    <!-- <div class="btn-container"> -->
+                                        <!-- <a href="#" class="btn">Expertise</a> -->
+                                        <!-- <a href="#" class="btn black">Our Services</a> -->
+                                    <!-- </div><!-- /.btn-container --> 
+                                </div><!-- /.inner-texts -->
+
+                                <!-- <img class="inner-image" src="images/slider/2.png" alt="Slider Image"> -->
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+
+                        <div class="item item-2"> 
+                            <img src="images/Images/Slider/Betare.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    <p class="description">
+                                        
+                                    </p><!-- /.description -->
+
+                                    
+                                </div><!-- /.inner-texts -->
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+
+                        <div class="item item-3"> 
+                            <img src="images/Images/Slider/Old pic.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    
+
+                                    <!-- /.btn-container -->
+                                </div><!-- /.inner-texts -->
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+
+                        <div class="item item-5"> 
+                            <img src="images/Images/Slider/sondage.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    <p class="description">
+                                       
+                                    </p><!-- /.description -->
+
+                                </div><!-- /.inner-texts -->
+
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+						<div class="item item-4"> 
+                            <img src="images/Images/Slider/tranchee.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    <p class="description">
+                                       
+                                    </p><!-- /.description -->
+
+                                </div><!-- /.inner-texts -->
+
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+						<div class="item item-6"> 
+                            <img src="images/Images/Slider/usine.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    <p class="description">
+                                       
+                                    </p><!-- /.description -->
+
+                                </div><!-- /.inner-texts -->
+
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+
+                        <div class="item item-1 active"> 
+                            <img src="images/Images/Slider/Yaounde.jpg" alt="Slider Image">
+                            <div class="inner-contents">  
+                                <div class="inner-texts">
+                                    <h2 class="item-title"></h2><!-- /.item-title -->
+                                    <p class="description">
+                                       
+                                    </p><!-- /.description -->
+
+                                </div><!-- /.inner-texts -->
+
+                            </div><!-- /.inner-contents -->    
+                        </div><!-- /.item -->
+                    </div><!-- /.carousel-inner -->
+
+                    <a class="left carousel-control" href="#banner-slider" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="right carousel-control" href="#banner-slider" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div><!-- /#banner-slider -->
+
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.slider-section -->
+
+
+
+
+
+
+
+
+
+    <section class="welcome">
+        <div class="section-padding">
+            <div class="container">
+                <div class="items">
+                    <div class="col-sm-7">
+                        <div class="inner-bg">
+                            <h2 class="section-title">Why choose us?</h2><!-- /.section-title -->
+                            <div class="padding">                            
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-user"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h4 class="item-title">{{ include(template_from_string(lang.experts)) }}</h4>
+                                        <p class="description">
+                                        
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-support"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h4 class="item-title">{{ include(template_from_string(lang.support)) }}</h4>
+                                        <p class="description">
+                                        
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+
+                                <div class="item media">
+                                    <div class="item-icon media-left"><i class="ti-calendar"></i></div><!-- /.item-icon -->
+                                    <div class="item-details media-body">
+                                        <h4 class="item-title">{{ include(template_from_string(lang.experiences)) }}</h4><!-- /.item-title -->
+                                        <p class="description">
+                                        <!-- mettre la description ici -->
+                                        </p><!-- /.description -->
+                                    </div><!-- /.item-details -->
+                                </div><!-- /.item -->
+                            </div><!-- /.padding -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-5">
+                        <div class="inner-bg">
+                            <h2 class="section-title"><span>ABOUT </span> AYIMBI</h2><!-- /.section-title -->
+                            <div class="padding">
+                                <p class="description">
+                                    A Yaounde based advisory company, mining analyst & mineral exchange facilitating transactions on mining titles and offering a variety of geological, exploration and mining related due diligence and technical review to Investors, Brokers and Government.
+                                </p><!-- /.description -->
+                            </div><!-- /.padding -->
+                        </div>
+                    </div>
+                </div><!-- /.items -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.welcome -->
+
+
+
+
+	
+	<!-- CArousel -->
+	
+	<div class="col-lg-2">
+	</div>
+
+
+    
+    
+<!-- <div class="slideshow"> -->
+<!-- <li></li> -->
+	<!-- <ul> -->
+		<!-- <li><img  src="../../ayimbi_1.0/public/images/Images/Cartes/1-GeologicalMap of Cameroon 1-1000000.jpg" alt="" width="350" height="200" /><p >GeologicalMap of Cameroon</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/1-GeologicalMap of Cameroon 1-1000000-bis.jpg" alt="" width="350" height="200" /><p >GeologicalMap of Cameroon</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/2-Geological Sketch_Cameroon.jpg" alt="" width="350" height="200" /><p >Geological Sketch_Cameroon</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/3-Geological map of SW Cameroon cc.jpg" alt="" width="350" height="200" /><p >Geological map of SW Cameroon cc</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/4-Geological map SE-Cameroon.jpg" alt="" width="350" height="200" /><p >Geological map SE-Cameroon</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/5-Geology_Cameroon_Nigeria.jpg" alt="" width="350" height="200" /><p >Geology_Cameroon_Nigeria</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/6-Geology_ore deposits_central_africa2.jpg" alt="" width="350" height="200" /><p >Geology_ore deposits_central_africa</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/7-Geology_Metallogenesis.jpg" alt="" width="350" height="200" /><p >Geology_Metallogenesis</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/8-Geology and mineral occurrences.jpg" alt="" width="350" height="200" /><p >Geology and mineral occurrences</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/9-All occurences_licenses.jpg" alt="" width="350" height="200" /><p >All occurences_licenses</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/10-Cadastral map.jpg" alt="" width="350" height="200" /><p >Cadastral map</p></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/11-BATOURI-W.png" alt="" width="350" height="200" /><h5 style="float=inline-end;">BATOURI-W</h5></li> -->
+		<!-- <li><img src="../../ayimbi_1.0/public/images/Images/Cartes/12-NB 33  IX -6 - betare oya.png" alt="" width="350" height="200" /><h5 >NB 33  IX -6 - betare oya</h5></li> -->
+		<!-- </ul> -->
+		<!-- <li>></li> -->
+<!-- </div> -->
+
+	</div>
+
+<div class="container">
+    <div class="row">
+		<div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+					<li data-target="#Carousel" data-slide-to="3"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                	  <div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/1-GeologicalMap of Cameroon 1-1000000.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geological Map of Cameroon 1-1000000 1/2</p></div>
+                	  <div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/1-GeologicalMap of Cameroon 1-1000000-bis.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geological Map of Cameroon 1-1000000 2/2</p></div>
+                	  <div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/2-Geological Sketch_Cameroon.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geological Sketch Cameroon</p></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                	    <div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/3-Geological map of SW Cameroon cc.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geological map of SW Cameroon</p></div>
+                		<div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/4-Geological map SE-Cameroon.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geological map SE-Cameroon</p></div>
+                		<div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/5-Geology_Cameroon_Nigeria.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geology Cameroon_Nigeria</p></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+						<div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/6-Geology_ore deposits_central_africa2.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geology ore deposits central africa</p></div>
+                		<div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/7-Geology_Metallogenesis.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geology Metallogenesis</p></div>
+                		<div class="col-md-4"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/8-Geology and mineral occurrences.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Geology and mineral occurrences</p></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+				<div class="item">
+                	<div class="row">
+						
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/9-All occurences_licenses.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">All occurences licenses</p></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/10-Cadastral map.jpg" alt="Image" style="max-width:100%;"></a><p class="description text-center">Cadastral map</p></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/11-BATOURI-W.png" alt="Image" style="max-width:100%;"></a><p class="description text-center">BATOURI</p></div>
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="../public/images/Images/Cartes/12-NB 33  IX -6 - betare oya.png" alt="Image" style="max-width:100%;"></a><p class="description text-center">Betare Oya</p></div>
+					</div><!--.row-->
+                </div><!--.item-->
+                 
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">
+                      <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a data-slide="next" href="#Carousel" class="right carousel-control">
+                      <i class="fa fa-angle-right"></i>
+                  </a>
+                </div><!--.Carousel-->
+                 
+		</div>
+	</div>
+</div><!--.container-->
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $('#Carousel').carousel({
+        interval: 5000
+    })
+});
+   $(function(){
+
+      setInterval(function(){
+         $(".slideshow ul").animate({marginLeft:-350},800,function(){
+            $(this).css({marginLeft:0}).find("li:last").after($(this).find("li:first"));
+         })
+      }, 3500);
+   });
+</script>
+
+{% endblock %}

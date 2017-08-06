@@ -1,0 +1,120 @@
+[01-Aug-2017 13:00:11 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:14:49 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:15:22 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:18:29 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:12 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:16 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:19 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:22 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:29 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:33 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:21:57 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:22:50 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[01-Aug-2017 18:30:40 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 09:59:34 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 10:04:38 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 10:04:46 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 10:06:03 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 19:17:02 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 19:17:33 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47
+[02-Aug-2017 19:18:30 Europe/Rome] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'afrolune_ayimbi', '@froLogix', Array)
+#1 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(59): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/ConnectionFactory.php(47): Illuminate\Database\Connectors\ConnectionFactory->createSingleConnection(Array) in /home/afrolune6/ayimbi.afrologix.com/vendor/illuminate/database/Illuminate/Database/Connectors/Connector.php on line 47

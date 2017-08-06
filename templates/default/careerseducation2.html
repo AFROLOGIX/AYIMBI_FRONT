@@ -1,0 +1,78 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="page-name">
+        <div class="section-padding">
+            <div class="container">
+                
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.page-name -->
+
+
+
+
+    <section class="services">
+        <div class="section-padding">
+            <div class="container">
+                <div class="items">
+                    <div class="col-sm-4">
+                        <ul class="service-nav">
+                            <li ><a href="#"><i class="ti-clipboard"></i>Autres  Services</a></li>
+                            <li><a href="{{ baseUrl() }}/mineraldatabase"><i class="ti-light-bulb"></i> MINERAL &amp; GEOLOGICAL DATABASE</a></li>
+                            <li><a href="economybench"><i class="ti-brush-alt"></i>MINING ECONOMY BENCHMARKS</a></li>
+                            <li class="active"><a href="#"><i class="ti-paint-bucket"></i>CAREERS AND EDUCATION</a></li>
+                            <li><a href="projectinvestment"><i class="ti-ruler-pencil"></i>PROJECT PROFILES AND INVESTMENT INCENTIVES</a></li>
+                        </ul><!-- /.nav-tabs -->
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div class="details-content">
+                            <div class="inner-bg">
+                                <div class="padding">			
+				  <div class="list-group" id="MainMenu">
+					<a href="#demo1" class="list-group-item" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="true">
+					<i class="fa fa-angle-right m-r-sm" ></i><b style="text-decoration:underline;">JOBS</b></a>
+						<div class="collapse in" id="demo1" aria-expanded="true" style="">
+						  <a href="javascript:;" class="list-group-item">Resumés</a>
+						  <a href="javascript:;" class="list-group-item">Mining jobs </a>
+						  <a href="javascript:;" class="list-group-item">Student jobs </a>
+						</div>
+					<a href="#demo2" class="list-group-item  collapsed" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="false">
+					<i class="fa fa-angle-right m-r-sm"></i><b style="text-decoration:underline;">Employers</b></a>
+						<div class="collapse" id="demo2" aria-expanded="false">
+						  <a href="" class="list-group-item">SUNDANCE RESOURCES</a>
+						  <a href="" class="list-group-item">CAMINCO</a>
+						  <a href="" class="list-group-item">BUNS</a>
+						  <a href="" class="list-group-item">SINOSTEEL</a>
+						</div>
+					<a href="#demo3" class="list-group-item  collapsed" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="false"><i class="fa fa-angle-right m-r-sm"></i>
+					<b style="text-decoration:underline;">Training and Education</b></a>
+						<div class="collapse" id="demo3" aria-expanded="false">
+						  <a href="" class="list-group-item">Training institutions (University of Yaounde I, Meiganga School of Geology)</a>
+						</div>
+					<a href="#demo4" class="list-group-item  collapsed" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="false">
+					<i class="fa fa-angle-right m-r-sm"></i><b style="text-decoration:underline;">Educational platforms or modules</b></a>
+						<div class="collapse" id="demo4" aria-expanded="false">
+						</div>
+					<a href="#demo4" class="list-group-item  collapsed" data-toggle="collapse" data-parent="#MainMenu" aria-expanded="false">
+					<i class="fa fa-angle-right m-r-sm"></i><b style="text-decoration:underline;">Videos</b></a>
+						<div class="collapse" id="demo4" aria-expanded="false">
+						</div>	
+				  </div>
+				
+                                   
+                               </div><!-- /.padding -->
+                            </div><!-- /.inner-bg -->
+
+                            <div class="section-padding"></div><!-- /.section-padding -->
+
+                     </div><!-- /.details-content -->
+                    </div>
+                </div><!-- /.items -->
+            </div><!-- /.container -->
+        </div><!-- /.section-padding -->
+    </section><!-- /.services -->
+
+{% endblock %}
