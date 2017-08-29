@@ -9,9 +9,9 @@
         <!-- ========= Themify Icon Css File ========= -->
         <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/font-awesome.min.css">
 
-        <!-- ========= Bootstrap Css File ========= -->
-        <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/bootstrap.min.css">
-
+        <!-- ========= Bootstrap Css File  <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/bootstrap.min.css">
+ ========= -->
+       
         <!-- ========= Magnific PopUp Css File ========= -->
         <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/magnific-popup.css">
 
@@ -24,10 +24,12 @@
         <!-- ========= Template Main Style css File ========= -->
         <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/themes.css">
 
-        <!-- ========= Template Responsive Style css File ========= -->
+        <!-- ========= Template Responsive Style css File  media = "screen"========= -->
         <link rel="stylesheet" href="{{ baseUrl() }}/assets/css/responsive.css">
 		<link rel="stylesheet" href="{{ baseUrl() }}/assets/css/slideshow.css">
 		 <script src="{{ baseUrl() }}/assets/js/modernizr.custom.js"></script>
+		 
+		 <Link href = "{{ baseUrl() }}/assets/css/bootstrap.min.css" rel = "stylesheet" >  
 		
 		<!--    slick pour les slides
 		<link rel="stylesheet" href="{{ baseUrl() }}/assets/css/slick/slick-theme.css">
@@ -84,13 +86,13 @@
                                 <div class="top-info">
                                     <span><i class="fa fa-phone"></i> Call us Now: +237 677524976</span>
                                     <!-- <span><i class="fa fa-envelope"></i> <a href="#">Get a Free Quote</a></span> -->
-                                    <span><i class="fa fa-clock-o"></i> MON - FRI: 09:00 - 20:00</span>
+                                    <span><i class="fa fa-clock-o"></i> MON - FRI: 09:00 - 17:00</span>
                                 </div><!-- /.top-info -->
                             </div><!-- /.top-sitemap -->
                         </div>
 
-                        <!-- <div class="col-sm-5"> -->
-                            <!-- <div class="top-sitemap text-right"> -->
+                         <div class="col-sm-5"> 
+                           <div class="top-sitemap text-right"> {{username}}
                                 <!-- <div class="top-social"> -->
                                     <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
                                     <!-- <a href="#"><i class="fa fa-pinterest"></i></a> -->
@@ -136,44 +138,45 @@
                                             <!-- </p> -->
 
                                         <!-- </form> -->
-                                    <!-- </div><!-- /.dropdown --> -->
+                                    <!-- </div><!-- /.dropdown --> 
                                 <!-- </div> -->
 
-                                <!-- <div class="has-dropdown"> -->
-                                    <!-- <a href="#"><i class="fa fa-lock"></i> Login</a> -->
-                                    <!-- <div class="dropdown"> -->
-                                        <!-- <form name="login" id="login" action="#" method="post"> -->
-                                            <!-- <p class="form-row form-row-wide"> -->
-                                                <!-- <input type="text" name="name" class="name" value="" placeholder="Username/Email" required> -->
-                                            <!-- </p> -->
-                                            <!-- <p class="form-row form-row-wide"> -->
-                                                <!-- <input type="password" name="pwd" id="user_pass-3" class="password" value="" placeholder="Password"> -->
-                                            <!-- </p> -->
-                                            <!-- <p class="form-row form-row-wide"> -->
-                                                <!-- <label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" > Remember me </label> -->
-                                                <!-- <input type="submit" class="btn" value="Sign In"> -->
-                                            <!-- </p> -->
+                                <div class="has-dropdown">
+                                    <a href="#"><i class="fa fa-lock"></i> Login</a>
+                                    <a href="{{ baseUrl() }}/admin/logout"><i class="fa fa-lock"></i> Logout</a>
+                                    <div class="dropdown">
+                                        <form name="login" id="login" action="{{ baseUrl() }}/admin/login" method="post">
+                                            <p class="form-row form-row-wide">
+                                                <input type="text" name="form-username" class="name" value="" placeholder="Username/Email" required>
+                                            </p>
+                                            <p class="form-row form-row-wide">
+                                                <input type="password" name="form-password" id="user_pass-3" class="password" value="" placeholder="Password">
+                                            </p>
+                                            <p class="form-row form-row-wide">
+                                                <label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" > Remember me </label>
+                                                <input type="submit" class="btn" value="Sign In">
+                                            </p>
 
-                                            <!-- <p class="form-row form-row-wide"> -->
-                                                <!-- <a href="#" class="forgot-psd">Forgot Password?</a> -->
+                                            <p class="form-row form-row-wide">
+                                                <a href="#" class="forgot-psd">Forgot Password?</a>
 
-                                                <!-- <span class="additional-method pull-right"> -->
-                                                    <!-- <a class="facebook" href="#"><i class="fa fa-facebook"></i></a> -->
-                                                    <!-- <a class="google" href="#"><i class="fa fa-google"></i></a> -->
-                                                <!-- </span> -->
-                                            <!-- </p> -->
+                                                <span class="additional-method pull-right">
+                                                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a class="google" href="#"><i class="fa fa-google"></i></a>
+                                                </span>
+                                            </p>
 
-                                            <!-- <p class="form-row form-row-wide"> -->
-                                                <!-- <span class="sign-up"> -->
-                                                    <!-- Don't have account? <a href="#">Sign up</a> -->
-                                                <!-- </span> -->
-                                            <!-- </p> -->
+                                            <p class="form-row form-row-wide">
+                                                <span class="sign-up">
+                                                    Don't have account? <a href="#">Sign up</a>
+                                                </span>
+                                            </p>
 
-                                        <!-- </form> -->
-                                    <!-- </div><!-- /.dropdown --> -->
-                                <!-- </div> -->
-                            <!-- </div><!-- /.top-sitemap --> -->
-                        <!-- </div> -->
+                                        </form>
+                                    </div><!-- /.dropdown -->
+                                </div>
+                             </div><!-- /.top-sitemap --> 
+                         </div>
                     </div><!-- /.top-inner -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -207,17 +210,19 @@
                                 <a style="font-size:12px" href="#">{{ include(template_from_string(lang.cmexchange)) }}</a>
 								 <ul class="sub-menu children">
                                     <li>
-                                        <a href="#">
+                                        <a href="{{ baseUrl() }}/creercompte_buy">
                                             buyers
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="{{ baseUrl() }}/creercompte">
+                                     
                                         sellers
                                         </a>
                                     </li>
 									<li>
-                                        <a href="#">
+                                        <a href="{{ baseUrl() }}/careerseducation">
+                                     
                                         listing
                                         </a>
                                     </li>
@@ -227,17 +232,17 @@
                                 <a style="font-size:12px" href="#">{{ include(template_from_string(lang.careered)) }}</a>
                                 <ul class="sub-menu children">
                                     <li>
-                                        <a href="http://localhost/ayimbi_1.1/public/" target="_blank">
+                                        <a href="http://localhost/ayimbi_1.1/public/" target="_blank"> <!-- permrt d'aller a la ligne target="_blank"-->
                                             {{ include(template_from_string(lang.careers)) }}
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="{{ baseUrl() }}/careerseducation">
+                                        <a href="{{ baseUrl() }}/careers">
                                         {{ include(template_from_string(lang.education)) }}
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="{{ baseUrl() }}/dictionary">
                                         {{ include(template_from_string(lang.dictionary)) }}
                                         </a>
                                     </li>
@@ -247,11 +252,11 @@
                             <li class="menu-item-has-children">
                                 <a style="font-size:12px" href="{{ baseUrl() }}/mineraldatabase">{{ include(template_from_string(lang.miningb)) }}</a>
                                 <ul class="sub-menu children">
-                                    <li><a href="#">{{ include(template_from_string(lang.mineralinsigths)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.miningeconomics)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.maps)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.mineralpot)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.legislation)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/mineraldatabase">{{ include(template_from_string(lang.mineralinsigths)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/economy">{{ include(template_from_string(lang.miningeconomics)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/maps">{{ include(template_from_string(lang.maps)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/licence">{{ include(template_from_string(lang.mineralpot)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/mineralinsigths">{{ include(template_from_string(lang.legislation)) }}</a></li>
                                 </ul>
                             </li>
 
@@ -269,9 +274,9 @@
 						<li class="menu-item-has-children">
 							<a style="font-size:12px" href="{{ baseUrl() }}/projectinvestment">{{ include(template_from_string(lang.ipincentives)) }}</a>
 							<ul class="sub-menu children">
-                                    <li><a href="#">{{ include(template_from_string(lang.profiles)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.project)) }}</a></li>
-                                    <li><a href="#">{{ include(template_from_string(lang.business)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/project_profile">{{ include(template_from_string(lang.profiles)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/investment">{{ include(template_from_string(lang.project)) }}</a></li>
+                                    <li><a href="{{ baseUrl() }}/business">{{ include(template_from_string(lang.business)) }}</a></li>
                             </ul>
 						</li>
                         </ul>
@@ -336,11 +341,10 @@
                                     <h3 class="widget-title">Services</h3><!-- /.widget-title -->
                                     <div class="widget-details">
                                         <a href="#"><i class="ti-arrow-right"></i>Mining Title Transactions</a>
-                                        <a href="#"><i class="ti-arrow-right"></i>Opportunities-Employers</a>
+                                        <a href="#"><i class="ti-arrow-right"></i>Job opportunities</a>
                                         <a href="#"><i class="ti-arrow-right"></i>Online courses</a>
                                         <a href="#"><i class="ti-arrow-right"></i>Project Profiles</a>
                                         <a href="#"><i class="ti-arrow-right"></i>Mining Insight</a>
-                                        <a href="#"><i class="ti-arrow-right"></i>Consultations</a>
 
                                     </div><!-- /.widget-details -->
                                 </div><!-- /.widget -->
@@ -352,8 +356,7 @@
                                     <div class="widget-details">
 
                                         <div class="time">
-                                            <span><span class="meta-id">Monday - Friday:</span> 10:00am to 08:00pm</span>
-                                            <span><span class="meta-id">Weekend:</span> 12:00am to 07:00pm</span>
+                                            <span><span class="meta-id">Monday - Friday:</span> 09:00am to 05:00pm</span>
                                         </div>
                                     </div><!-- /.widget-details -->
                                 </div><!-- /.widget -->

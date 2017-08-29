@@ -10,18 +10,21 @@ $app->group('/admin', function () use ($app, $settings, $isLogged, $authenticate
     $app->post('/login', function() use ($app, $settings) {
         $username = $app->request->post('form-username');
         $password = hash('sha512', $app->request->post('form-password'));
-        $user = Users::whereRaw('username = ? AND password = ?', array($username, $password))->get();
+        $user = Users::whereRaw('(username = ? OR email = ?) AND password = ?', array($username, $username, $password))->get();
 
         if ($user->count() != 0) {
-            $_SESSION['user'] = $username;
-            $app->redirect($settings->base_url . '/admin');
+			//var_dump($user[0]->username);
+            $_SESSION['user'] = $user[0]->username;
+            $_SESSION['user_id'] = $user[0]->id;
+			$app->flash('username', $user[0]->username);
+            $app->redirect($settings->base_url . '/listing');
         } else {
             $app->flash('error', 1);
-            $app->redirect($settings->base_url . '/admin/login');
+            $app->redirect($settings->base_url );
         }
     });
 
-    $app->get('/logout/', $authenticate($app, $settings), function() use ($app, $settings) {
+    $app->get('/logout', $authenticate($app, $settings), function() use ($app, $settings) {
         unset($_SESSION['user']);
         $app->view()->setData('user', null);
         $app->redirect($settings->base_url);

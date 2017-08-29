@@ -5,7 +5,7 @@
 return array(
     'driver' => 'mysql',
     'host' => 'localhost',
-    'database' => 'ayimbi_resources',
+    'database' => 'ayimbi_ressources_db1',
     'username' => 'root',
     'password' => '',
     'prefix'   => '',

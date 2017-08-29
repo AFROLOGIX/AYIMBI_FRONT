@@ -47,6 +47,13 @@ $authenticate = function($app, $settings) {
  * @param $settings
  * @return callable
  */
+ include_once "../src/models/Articles.models.php";
+ include_once "../src/models/Articles_Users.models.php";
+ include_once "../src/models/Region.models.php";
+ include_once "../src/models/Type.models.php";
+ include_once "../src/models/Basin.models.php";
+ include_once "../src/models/Departement.models.php";
+ 
 $isLogged = function($app, $settings) {
     return function() use ($app, $settings) {
         if (isset($_SESSION['user'])) {
@@ -69,6 +76,7 @@ $app->hook('slim.before.dispatch', function() use ($app, $settings) {
 /**
  * Include all files located in routes directory
  */
+ 
 foreach(glob(ROUTEDIR . '*.php') as $router) {
     require_once $router;
 }
